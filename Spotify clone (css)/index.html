@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icons/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="lib-options">
+                    <div class="lib-icon nav-option">
+                        <img src="./icons/library_icon.png" >
+                        <a href="#">Your Library</a>
+                    </div>
+                        
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box-1">
+                        <p class="boxp1">Create your first playlist</p>
+                        <p class="boxp2">it's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box-1 bottom">
+                        <p class="boxp1">Let's find some podcasts to follow</p>
+                        <p class="boxp2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- main-content -->
+        <div class="main-content">
+            <div class="sticky-navbar">
+                <div class="stickyleft">
+                    <img src="./icons/backward_icon.png">
+                    <img src="./icons/forward_icon.png" class="hide">
+                </div>
+                <div class="stickyright">
+                    <button class="badge hide">Explore Premium</button>
+                    <button class="badge dark-badge"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+
+            <h2><a class="anch">Recently played</a></h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./icons/card1img.jpeg" class="cardimage">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-description">Your daily update of the most played...</p>
+                </div>
+            </div>
+            
+            <h2><a class="anch">Your Top mixes</a></h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./icons/card4img.jpeg" class="cardimage">
+                    <p class="card-title">South indian</p>
+                    <p class="card-description">Your daily update of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./icons/card2img.jpeg" class="cardimage">
+                    <p class="card-title">Mahiye jina sona</p>
+                    <p class="card-description">2023. Darshal rawat mah...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./icons/card3img.jpeg" class="cardimage">
+                    <p class="card-title">Best of rahat fateh ali khan</p>
+                    <p class="card-description">2017. rahat fateh ali..</p>
+                </div>
+            </div>
+
+            <h2><a class="anch">Made For Rohit Kumar</a></h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./icons/en.jpeg" class="cardimage">
+                    <p class="card-title">Punjabi</p>
+                    <p class="card-description">Shubh, AP Dhillon, jassa Dhillon..</p>
+                </div>
+
+                <div class="card">
+                    <img src="./icons/sabrina.jpeg" class="cardimage">
+                    <p class="card-title">Daily Mix - 03</p>
+                    <p class="card-description">Sabrina Carpenter</p>
+                </div>
+
+                <div class="card">
+                    <img src="./icons/arijit.jpeg" class="cardimage arijitimage">
+                    <p class="card-title">Daily Mix - 06</p>
+                    <p class="card-description">Arijit singh, Mithoon, Sachin jigar and more</p>
+                </div>
+
+                <div class="card">
+                    <img src="./icons/sidhu.jpeg" class="cardimage sidhu">
+                    <p class="card-title">Sidhu Moose wala mix</p>
+                    <p class="card-description">sidhu moose wala, AP..</p>
+                </div>
+
+                <div class="card">
+                    <img src="./icons/honey.jpeg" class="cardimage">
+                    <p class="card-title">Glory</p>
+                    <p class="card-description">Yo Yo Honey Singh</p>
+                </div>
+            </div>
+
+            <h2><a class="anch">Featured Charts</a></h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./icons/card5img.jpeg" class="cardimage">
+                    <p class="card-title">Top Songs - Global</p>
+                    <p class="card-description">Top Global songs..</p>
+                </div>
+
+                <div class="card">
+                    <img src="./icons/card6img.jpeg" class="cardimage">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-description">Top Indian songs...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+
+
+        <div class="music-player">
+            <div class="playerleft">
+                <img src="./icons/honey.jpeg" class="honeyimage">
+                <div>
+                    <div class="p1"><a class="anch">Millionaire</a></div>
+                    <div class="p2"><a class="anch">Yo Yo Honey Singh</a></div>
+                </div>
+                <a class="anch"><img src="./icons/add.png" class="addicon"></a>
+            </div>
+
+            <div class="playermiddle">
+                <div class="one">
+                    <img src="./icons/player_icon1.png" class="imgmiddleplayer">
+                    <img src="./icons/player_icon2.png" class="imgmiddleplayer">
+                    <img src="./icons/player_icon3.png" class="imgmiddleplayer play">
+                    <img src="./icons/player_icon4.png" class="imgmiddleplayer">
+                    <img src="./icons/player_icon5.png" class="imgmiddleplayer">
+                </div>
+                <div >
+                    <span class="time">00:00</span>
+                    <input type="range" class="progressbar">
+                    <span class="time">3:33</span>
+                </div>
+            </div>  
+
+            <div class="playerright">
+                <img src="./icons/volume.png" class="volume">
+                <input type="range" class="volumerange">
+                <i class="fa-solid fa-up-right-and-down-left-from-center fullscreen"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
